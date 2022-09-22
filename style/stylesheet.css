@@ -10,3 +10,44 @@ body {
   padding: 20px;
   background-color: aqua;
 }
+
+.head-section {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.nav {
+  background-color: aliceblue;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+  text-align: justify;
+}
+
+.picture {
+  background-color: blue;
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+}
+
+.adress {
+  background-color: green;
+  width: 150px;
+  height: 70px;
+  margin: 20px;
+}
+
+.text {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
