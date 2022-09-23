@@ -16,6 +16,8 @@ body {
   padding: 20px;
   margin: 20px;
   display: block;
+  width: 700px;
+  height: 100px;
 }
 
 h1 {
@@ -25,9 +27,7 @@ h1 {
 
 .nav {
   background-color: aliceblue;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-bottom: -20px;
+  margin: -20px;
   text-align: justify;
 }
 
@@ -49,5 +49,14 @@ h1 {
   background-color: blueviolet;
   width: 200px;
   height: 200px;
-  position: relative;
+  margin: 20px;
+}
+
+.sneak1,
+.sneak2,
+.sneak3 {
+  background-color: brown;
+  width: 150px;
+  height: 100px;
+  margin: 20px;
 }
