@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-image: linear-gradient(135deg, #8b4513, white);
+  display: block;
+  height: 700px;
+  width: 580px;
+  padding: 20px;
+}
+
+.head-section {
+  background-color: #cd853f;
+  border-radius: 10px;
+  display: block;
+  width: 540px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #ffd39b;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  color: #8b4513;
+  text-decoration: none;
+}
+/*NAV ENDE*/
+
+.big-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*left side*/
+.pic-adress {
+  height: 250px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.picture {
+  background-color: blue;
+  width: 150px;
+  height: 180px;
+}
+
+.adress {
+  background-color: green;
+  width: 150px;
+  height: 50px;
+}
+
+/*middle*/
+.text {
+  background-color: blueviolet;
+  width: 200px;
+  height: 250px;
+}
+
+/*right side*/
+.sneakpeaks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sneak1,
+.sneak2,
+.sneak3,
+.sneak4 {
+  background-color: brown;
+  width: 150px;
+  height: 50px;
+}
